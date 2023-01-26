@@ -1,0 +1,36 @@
+.main {
+  padding: 0 27px;
+  color: #fff;
+  background-color: #282D35;
+  padding-top: 57px;
+  padding-bottom: 125px;
+  background-image: url(../assets/reactjs-icon-big-half.png);
+  background-repeat: no-repeat;
+  background-size: 160px;
+  background-position: 100% 55%;
+}
+
+.main--h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 39.06px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+}
+
+.main--ul {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20px;
+}
+
+.main--li::marker {
+  font-size: 1.4em;
+  color: #61DAFB;
+}
