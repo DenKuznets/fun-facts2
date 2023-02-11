@@ -38,13 +38,17 @@ nav.dark {
     background-color: #21222A;
 }
 
+nav.dark h3 {
+    color: #61DAFB;
+}
+
 .nav--logo_icon {
     width: 30px;
     margin-right: 10px;
 }
 
 .nav--logo_text {
-    color: #61DAFB;
+    color: #00ABCA;
     margin-right: auto;
 }
 

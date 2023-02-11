@@ -1,7 +1,10 @@
 export default function Navbar(props) {
+  const reactLogoURL = props.darkMode
+    ? "./assets/react-icon-small-dark.png"
+    : "./assets/react-icon-small-light.png";
   return (
     <nav className={props.darkMode ? "dark" : ""}>
-      <img alt="react-logo" className="nav--logo_icon" src="./assets/react-icon-small.png" />
+      <img alt="react-logo" className="nav--logo_icon" src={reactLogoURL} />
       <h3 className="nav--logo_text">ReactFacts</h3>
 
       <div className="toggler">
